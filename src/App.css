@@ -1,0 +1,22 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+.App {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board-container {
+  height: 300px;
+  width: 300px;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+}
